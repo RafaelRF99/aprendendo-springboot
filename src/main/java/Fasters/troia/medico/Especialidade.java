@@ -1,6 +1,6 @@
 package Fasters.troia.medico;
 
-public enum IEspacialidade {
+public enum Especialidade {
 
     ORTOPEDIA,
     CARDIOLOGIA,

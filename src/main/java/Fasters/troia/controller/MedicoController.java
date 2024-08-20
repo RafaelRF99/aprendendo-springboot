@@ -1,6 +1,6 @@
 package Fasters.troia.controller;
 
-import Fasters.troia.medico.IDadosCadastroMedico;
+import Fasters.troia.medico.DadosCadastroMedico;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MedicoController {
 
     @PostMapping
-    public void cadastrar(@RequestBody IDadosCadastroMedico dados) {
+    public void cadastrar(@RequestBody DadosCadastroMedico dados) {
         System.out.println(dados);
     }
 
